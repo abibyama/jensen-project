@@ -1,12 +1,14 @@
 
 import './App.css';
-import Utbildning from './componnents/Utbildning'; 
+import Utbildningar from './componnents/Utbildningar'; 
+import Lista from './componnents/Lista';
 
 
 function App() {
   return (
     <div className="App">
-      <Utbildning />
+      <Utbildningar />
+      <Lista />
     </div>
   );
 }
