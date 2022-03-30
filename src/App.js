@@ -1,7 +1,7 @@
-
 import './App.css';
 import Kurser from './componnents/AMI/Kurser';
 import Utbildning from './componnents/Utbildning'; 
+import Ansökan from './componnents/MA/Ansökan'; 
 
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
     <div className="App">
       <Utbildning />
       <Kurser />
+      <Ansökan/>
     </div>
   );
 }
