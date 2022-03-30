@@ -1,10 +1,8 @@
 import React from 'react'
-import KursInfo from './KursInfo'
+import Form from './Form'
 
 export default function Kurser() {
   return (
-    <KursInfo />
-
-
+    <Form />
   )
 }
