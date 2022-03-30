@@ -31,7 +31,7 @@
           required
           ></textarea>
 
-        <input type="submit" value="Ny kurs">Lägg till kurs</input>
+        <input type="submit" value="Ny kurs"></input>
           
 
 
