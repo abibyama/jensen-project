@@ -32,6 +32,8 @@ const Ansökan = () => {
           <option value="fullstack">fullstack</option>
         </select>
 
+        <input type="submit" value="Ansök"></input>
+
 
       </form>
       
