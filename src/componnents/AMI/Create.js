@@ -1,6 +1,6 @@
   import React from 'react'
 
-  function Form() {
+  function Create() {
     return  (
       <div className='ansökan'>
         <h1>Lägg till kurs</h1>
@@ -47,7 +47,7 @@
   )
 }
 
-export default Form
+export default Create
 
 
 

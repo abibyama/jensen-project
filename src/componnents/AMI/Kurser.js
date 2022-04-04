@@ -1,8 +1,8 @@
 import React from 'react'
-import Form from './Form'
+import Create from './Create'
 
 export default function Kurser() {
   return (
-    <Form />
+    <Create />
   )
 }
