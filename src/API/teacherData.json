@@ -1,0 +1,29 @@
+[
+{ "firstName": "Mohamed",
+    "lastName": "Abdi Ali",
+    "email": "moha@chaiacademy.com",
+    "bankAccount": "237402430"
+
+},
+{ "firstName": "Mohamed",
+    "lastName": "Ali",
+    "email": "moali@chaiacademy.com",
+    "bankAccount": "301893023"
+
+
+},
+
+{ "firstName": "Per",
+    "lastName": "Thorander",
+    "email": "perthor@chaiacademy.com",
+    "bankAccount": "456871431"
+
+},
+
+{ "firstName": "Abdullahi",
+    "lastName": "Mohamed Ibrahim",
+    "email": "abdibra@chaiacademy.com",
+    "bankAccount": "101892537"
+}
+
+]
