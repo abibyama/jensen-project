@@ -2,7 +2,7 @@
 
   function Create() {
     return  (
-      <div className='ansökan'>
+      <div className='skapa'>
         <h1>Lägg till kurs</h1>
         <form>
 
