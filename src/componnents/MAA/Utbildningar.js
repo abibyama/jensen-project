@@ -1,17 +1,33 @@
-import React from 'react'
-import Lista from './Lista'
+    import React from 'react'
+import KursLista from './KursLista'
+    import Lista from './Lista'
+    import utbildningLista from './utbildningLista'
 
-const Utbildningar = () => {
-  return (
-    <div >
-      <h1>Utbildningar</h1>
-      <Lista />
-     
-    </div>
+    function education (educationList){
+      return (
+        <div>
+        <Lista 
+        key={educationList.id}
+        name={educationList.name}
+        description={educationList.description}
+        />
+        <KursLista />
+        </div>
+      )
+    }
+
+
+    function Utbildningar () {
+      return (
+        <div >
+          <h1>Utbildningar</h1>
+          {utbildningLista.map(education)}
+        
+        </div>
+        
+
     
+      )
+    }
 
- 
-  )
-}
-
-export default Utbildningar
+    export default Utbildningar
