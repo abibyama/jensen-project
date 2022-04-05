@@ -2,12 +2,14 @@
 { "firstName": "Mohamed",
     "lastName": "Abdi Ali",
     "email": "moha@chaiacademy.com",
+    "role":"U",
     "bankAccount": "237402430"
 
 },
 { "firstName": "Mohamed",
     "lastName": "Ali",
     "email": "moali@chaiacademy.com",
+    "role":"T",
     "bankAccount": "301893023"
 
 
@@ -16,6 +18,7 @@
 { "firstName": "Per",
     "lastName": "Thorander",
     "email": "perthor@chaiacademy.com",
+    "role":"T",
     "bankAccount": "456871431"
 
 },
@@ -23,6 +26,7 @@
 { "firstName": "Abdullahi",
     "lastName": "Mohamed Ibrahim",
     "email": "abdibra@chaiacademy.com",
+    "role":"T",
     "bankAccount": "101892537"
 }
 
