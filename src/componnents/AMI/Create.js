@@ -14,10 +14,6 @@ import SelectData from './SelectData'
                   />
           <label>Ansvarig lärare</label>
             <SelectData />
-            {/* <option value="Mohammad Ali">Mohammad Ali</option>
-            <option value="Per T">Per T</option>
-            <option value="Mohamed Abdi Ali">Mohamed Abdi Ali</option> */}
-          
 
           <label>Kurslängd</label>
           <select>
