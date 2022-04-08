@@ -1,5 +1,4 @@
-[
-    {"teachers":[
+{   "teachers":[
         {   "id":1,
             "firstName": "Mohamed",
             "lastName": "Abdi Ali",
@@ -40,7 +39,6 @@
         }
         
         ],
-    
         "courses":[
             {   "id":1,
                 "courseName": "Frontend"
@@ -60,8 +58,5 @@
             {   "id":4,
                 "courseName": "IT-projektledare"
             }
-            
             ]
-    }   
-    
-    ]
+}     
