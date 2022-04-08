@@ -12,8 +12,8 @@
 
     {
         id: 2, 
-        name: "IT-projektledare",
-        description: "För att kunna driva framgångsrika IT-projekt behöver du förstå IT, men även ha kunskap om projektledningsmetoder samt hur man leder andra personer "
+        name: "DevOps Engineer",
+        description: " DevOps är en metod för hur man arbetar med mjukvaruutveckling och snabbt tar fram nya digitala tjänster "
 
 
     },

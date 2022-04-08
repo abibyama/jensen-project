@@ -72,8 +72,20 @@
                         "frontendName":"Webbramverk för JavaScript"},
                     { "id":4,
                         "frontendName":"Agil projektmetodik"}   
-            ]
+            ],
 
- 
+            "DevOpsEngineer":[
+                {
+                    "key":1,
+                    "DevOpsEngineertName":"Projektledningsmetodik 1"},
+                    {"key":2,
+                        "DevOpsEngineerName":"Projektledningsmetodik 2"},
+                   {"key":3,
+                       "DevOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+                    { "key":4,
+                        "DevOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
+                    { "key":4,
+                        "DevOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+            ]
 
 }     

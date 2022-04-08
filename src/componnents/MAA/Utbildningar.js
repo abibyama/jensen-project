@@ -1,8 +1,9 @@
     import React from 'react'
-import KursLista from './KursLista'
     import Lista from './Lista'
     import utbildningLista from './utbildningLista'
-
+    import CourseInfo from './FrontEndCourses'
+   
+   
     function education (educationList){
       return (
         <div>
@@ -12,8 +13,10 @@ import KursLista from './KursLista'
         description={educationList.description}
         class={education}
         />
-        <KursLista />
-        
+       <CourseInfo />
+       
+
+      
        
         </div>
       )
