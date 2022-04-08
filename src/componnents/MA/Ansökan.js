@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import CourseSelect from './CourseSelect';
 
 const Ansökan = () => {
  const [nameValue, setNameValue] = useState("");
@@ -35,11 +36,7 @@ const Ansökan = () => {
                 />
 
         <label>Välj utbildning</label>
-        <select>
-          <option value="frontend">frontend</option>
-          <option value="backend">backend</option>
-          <option value="fullstack">fullstack</option>
-        </select>
+       <CourseSelect />
 
         <input type="submit" value="Ansök"></input>
         {/* <button type="button" onClick={ButtonClick}>Add data</button> */}
