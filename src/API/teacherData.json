@@ -58,5 +58,22 @@
             {   "id":4,
                 "courseName": "IT-projektledare"
             }
+            ],
+
+            "frontend":[
+                {
+                    "id":1,
+                    "frontendName":"Webbutveckling: Frontend"},
+                    {"id":2,
+                        "frontendName":"Grundläggande JavaScriptprogrammering"},
+                   {"id":3,
+                       "frontendName":"Webbkommunikation"},
+                    { "id":4,
+                        "frontendName":"Webbramverk för JavaScript"},
+                    { "id":4,
+                        "frontendName":"Agil projektmetodik"}   
             ]
+
+ 
+
 }     
