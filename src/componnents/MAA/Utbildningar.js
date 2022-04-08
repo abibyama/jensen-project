@@ -1,5 +1,5 @@
     import React from 'react'
-import KursLista from './kursLista'
+import KursLista from './KursLista'
     import Lista from './Lista'
     import utbildningLista from './utbildningLista'
 
