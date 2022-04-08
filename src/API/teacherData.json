@@ -1,11 +1,17 @@
 {"teachers":[
-    { "name": "Mohamed Abdi Ali",
+    {   "id":1,
+        "firstName": "Mohamed",
+        "lastName": "Abdi Ali",
+        "fullName" : "Mohammed Abdi Ali",
         "email": "moha@chaiacademy.com",
         "role":"U",
         "bankAccount": "237402430"
     
     },
-    { "name": "Mohamed Ali",
+    {   "key":2,
+        "firstName": "Mohamed",
+        "lastName":"Ali",
+        "fullName" : "Mohamed Ali",
         "email": "moali@chaiacademy.com",
         "role":"T",
         "bankAccount": "301893023"
@@ -13,14 +19,20 @@
     
     },
     
-    { "name": "Per Thorander",
+    {   "key": 3,
+        "firstName": "Per",
+        "lastName":"Thorander",
+        "fullName" : "Per Thorander",
         "email": "perthor@chaiacademy.com",
         "role":"T",
         "bankAccount": "456871431"
     
     },
     
-    { "name": "Abdullahi Mohamed Ibrahim",
+    {   "id":4,
+        "firstName": "Abdullahi",
+        "lastName":"Mohamed Ibrahim",
+        "fullName" : "Abdullahi Mohamed Ibrahim",
         "email": "abdibra@chaiacademy.com",
         "role":"T",
         "bankAccount": "101892537"

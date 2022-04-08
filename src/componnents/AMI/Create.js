@@ -1,4 +1,5 @@
   import React from 'react'
+import SelectData from './SelectData'
 
   function Create() {
     return  (
@@ -12,11 +13,11 @@
                     required
                   />
           <label>Ansvarig lärare</label>
-          <select>
-            <option value="Mohammad Ali">Mohammad Ali</option>
+            <SelectData />
+            {/* <option value="Mohammad Ali">Mohammad Ali</option>
             <option value="Per T">Per T</option>
-            <option value="Mohamed Abdi Ali">Mohamed Abdi Ali</option>
-          </select>
+            <option value="Mohamed Abdi Ali">Mohamed Abdi Ali</option> */}
+          
 
           <label>Kurslängd</label>
           <select>
