@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Utbildningar from './componnents/MAA/Utbildningar';
 import Ansökan from './componnents/MA/Ansökan'
 import Kurser from './componnents/AMI/Kurser'
+import Lärare from './componnents/PT/Larare'
 
 
 ReactDOM.render(
@@ -15,6 +16,7 @@ ReactDOM.render(
         <Route path="/kurser" element={ <Kurser />}/>
         <Route path="/ansokan" element={ <Ansökan />}/>
         <Route path="/utbildningar" element={ <Utbildningar />}/>
+        <Route path="/larare" element={ <Lärare />}/>
     </Routes>
    
 </BrowserRouter>,
