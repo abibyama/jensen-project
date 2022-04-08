@@ -39,9 +39,9 @@
             "bankAccount": "101892537"
         }
         
-        ]},
+        ],
     
-        {"courses":[
+        "courses":[
             {   "id":1,
                 "courseName": "Frontend"
             
