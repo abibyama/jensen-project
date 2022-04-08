@@ -18,6 +18,7 @@ const Ansökan = () => {
                 <input 
                   type="text"
                   value={nameValue}
+                  onChange ={(e) => setNameValue(e.target.value)}
                   required
                 />
 
@@ -25,6 +26,7 @@ const Ansökan = () => {
                 <input 
                   type="text"
                   value={lastNameValue}
+                  onChange ={(e) => setLastNameValue(e.target.value)}
                   required
                 />
 
@@ -32,6 +34,7 @@ const Ansökan = () => {
                 <input 
                   type="text"
                   value= {emailValue}
+                  onChange ={(e) => setEmailValue(e.target.value)}
                   required
                 />
 

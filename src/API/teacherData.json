@@ -39,24 +39,24 @@
         }
         
         ],
-        "courses":[
+        "program":[
             {   "id":1,
-                "courseName": "Frontend"
+                "education": "Frontend"
             
             },
             {   "key":2,
-                "courseName": "Teknik Testar"
+                "education": "Teknik Testar"
             
             
             },
             
             {   "key": 3,
-                "courseName": "apple utvacklare"
+                "education": "apple utvacklare"
             
             },
             
             {   "id":4,
-                "courseName": "IT-projektledare"
+                "education": "IT-projektledare"
             }
             ]
 }     
