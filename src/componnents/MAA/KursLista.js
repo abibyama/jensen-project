@@ -2,17 +2,40 @@ import React from 'react'
 
 export default function KursLista() {
   return (
-    <div>
-         <select>
+    <div className='Utbildningar'>
+        
+
+        
+         <select className='Lista '>
+           
               <option>kurser</option>
-              <option value="">webbutvecklingfrontend</option>
-              <option value="">grundjavascript</option>
-              <option value="">Webbkomminakation</option>
-              <option value="">Webbramverk för JavaScript</option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+
+            
+
+        
+
+              
+
+
             
             </select>
+
+            
+         
+        
            
+        
 
     </div>
+    
   )
 }
+
+
+    
+
+
