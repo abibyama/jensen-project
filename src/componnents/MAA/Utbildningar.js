@@ -10,8 +10,11 @@ import KursLista from './KursLista'
         key={educationList.id}
         name={educationList.name}
         description={educationList.description}
+        class={education}
         />
         <KursLista />
+        
+       
         </div>
       )
     }

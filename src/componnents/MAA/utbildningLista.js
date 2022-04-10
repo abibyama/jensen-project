@@ -12,9 +12,8 @@
 
     {
         id: 2, 
-        name: "Teknik Testar",
-        description: "Som frontendutvecklare skapar du med hjälp av kod det presentationslager som gör att människor kan interagera med tekniken, du arbetar med det man ser och använder när man surfar på en webbplats."
-        
+        name: "IT-projektledare",
+        description: "För att kunna driva framgångsrika IT-projekt behöver du förstå IT, men även ha kunskap om projektledningsmetoder samt hur man leder andra personer "
 
 
     },
@@ -24,7 +23,7 @@
     {
         id: 3, 
         name: "Cloud utvacklare",
-        description: "Som frontendutvecklare skapar du med hjälp av kod det presentationslager som gör att människor kan interagera med tekniken, du arbetar med det man ser och använder när man surfar på en webbplats."
+        description: "Som cloudutvecklare har du specialiserade kunskaper inom säker applikationsutveckling med programmeringsspråket Java och relevanta databaser och använder en molnplattform - i det här fallet AWS - som utvecklingsmiljö. AWS är idag den största molnplattformen i konkurrens med främst Microsoft Azure och Google Cloud Platform (GCP). "
 
     },
 

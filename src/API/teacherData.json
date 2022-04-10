@@ -1,33 +1,79 @@
-[
-{ "firstName": "Mohamed",
-    "lastName": "Abdi Ali",
-    "email": "moha@chaiacademy.com",
-    "role":"U",
-    "bankAccount": "237402430"
+{   "teachers":[
+        {   "id":1,
+            "firstName": "Mohamed",
+            "lastName": "Abdi Ali",
+            "fullName" : "Mohammed Abdi Ali",
+            "email": "moha@chaiacademy.com",
+            "role":"U",
+            "bankAccount": "237402430"
+        
+        },
+        {   "key":2,
+            "firstName": "Mohamed",
+            "lastName":"Ali",
+            "fullName" : "Mohamed Ali",
+            "email": "moali@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "301893023"
+        
+        
+        },
+        
+        {   "key": 3,
+            "firstName": "Per",
+            "lastName":"Thorander",
+            "fullName" : "Per Thorander",
+            "email": "perthor@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "456871431"
+        
+        },
+        
+        {   "id":4,
+            "firstName": "Abdullahi",
+            "lastName":"Mohamed Ibrahim",
+            "fullName" : "Abdullahi Mohamed Ibrahim",
+            "email": "abdibra@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "101892537"
+        }
+        
+        ],
+        "program":[
+            {   "id":1,
+                "education": "Frontend"
+            
+            },
+            {   "key":2,
+                "education": "Teknik Testar"
+            
+            
+            },
+            
+            {   "key": 3,
+                "education": "apple utvacklare"
+            
+            },
+            
+            {   "id":4,
+                "education": "IT-projektledare"
+            }
+            ],
 
-},
-{ "firstName": "Mohamed",
-    "lastName": "Ali",
-    "email": "moali@chaiacademy.com",
-    "role":"T",
-    "bankAccount": "301893023"
+            "frontend":[
+                {
+                    "id":1,
+                    "frontendName":"Webbutveckling: Frontend"},
+                    {"id":2,
+                        "frontendName":"Grundläggande JavaScriptprogrammering"},
+                   {"id":3,
+                       "frontendName":"Webbkommunikation"},
+                    { "id":4,
+                        "frontendName":"Webbramverk för JavaScript"},
+                    { "id":4,
+                        "frontendName":"Agil projektmetodik"}   
+            ]
 
+ 
 
-},
-
-{ "firstName": "Per",
-    "lastName": "Thorander",
-    "email": "perthor@chaiacademy.com",
-    "role":"T",
-    "bankAccount": "456871431"
-
-},
-
-{ "firstName": "Abdullahi",
-    "lastName": "Mohamed Ibrahim",
-    "email": "abdibra@chaiacademy.com",
-    "role":"T",
-    "bankAccount": "101892537"
-}
-
-]
+}     
