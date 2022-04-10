@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react'
-import axios from 'axios'
 
 function SelectData() {
 const [teachers, setTeachers] = useState([]) 
@@ -21,7 +20,6 @@ useEffect(() => {
     </option>
   ))}
 </select>
-
     </div>
   )
 }

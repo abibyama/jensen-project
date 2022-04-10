@@ -18,10 +18,7 @@
 
 
 .skapa {
-  display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
-  width: 400px;
+  max-width: 400px;
   margin: auto;
   text-align: center;
 }
@@ -31,10 +28,9 @@
 }
 .skapa h2 {
   font-size: 20px;
-  
   margin-bottom: 30px;
 }
-.skapa input, .skapa, .skapa select {
+.skapa input, .skapa textarea, .skapa select {
   width: 100%;
   padding: 6px 10px;
   margin: 10px 0;
