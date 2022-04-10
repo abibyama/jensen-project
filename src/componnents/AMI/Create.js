@@ -39,7 +39,6 @@
           onChange={(e) => setDescription(e.target.value)}
           ></textarea>
         <button>Lägg till kurs</button>
-          <p>{weeks}</p>
           </form>
         
 
