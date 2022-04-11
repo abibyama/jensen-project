@@ -8,7 +8,7 @@
             "bankAccount": "237402430"
         
         },
-        {   "key":2,
+        {   "id":2,
             "firstName": "Mohamed",
             "lastName":"Ali",
             "fullName" : "Mohamed Ali",
@@ -19,7 +19,7 @@
         
         },
         
-        {   "key": 3,
+        {   "id": 3,
             "firstName": "Per",
             "lastName":"Thorander",
             "fullName" : "Per Thorander",
@@ -44,13 +44,13 @@
                 "education": "Frontend"
             
             },
-            {   "key":2,
+            {   "id":2,
                 "education": "Teknik Testar"
             
             
             },
             
-            {   "key": 3,
+            {   "id": 3,
                 "education": "apple utvacklare"
             
             },
@@ -76,15 +76,15 @@
 
             "DevOpsEngineer":[
                 {
-                    "key":1,
+                    "id":1,
                     "DevOpsEngineertName":"Projektledningsmetodik 1"},
-                    {"key":2,
+                    {"id":2,
                         "DevOpsEngineerName":"Projektledningsmetodik 2"},
-                   {"key":3,
+                   {"id":3,
                        "DevOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
-                    { "key":4,
+                    { "id":4,
                         "DevOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
-                    { "key":4,
+                    { "id":4,
                         "DevOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ]
 
