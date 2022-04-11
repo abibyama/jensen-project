@@ -2,30 +2,33 @@
   import SelectData from './SelectData'
 
   function Create() {
-    const [course, setCourse] = useState('')
+    const [courseName, setCourseName] = useState('')
     const [description, setDescription] = useState('')
-    const [teacher, setTeacher] = useState('')
-    const [weeks, setWeeks] = useState('52')
+    const [courseLength, setCourseLength] = useState('52')
+
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const course = {courseName, SelectData, courseLength };
+      console.log(course)
+    }
+
     return  (
       <div className='skapa'>
         <h1>Lägg till kurs</h1>
-        <form>
+        <form onSubmit={handleSubmit}>
           <label>Kursnamn</label>
                   <input 
                     type="text"
                     required
-                    value={course}
-                    onChange={(e) => setCourse(e.target.value)}
+                    value={courseName}
+                    onChange={(e) => setCourseName(e.target.value)}
                   />
           <label>Ansvarig lärare</label>
-            <SelectData
-            value={teacher}
-            onChange={(e) => setTeacher(e.target.value)}/>
-
+            <SelectData />
           <label>Kurslängd</label>
           <select
-          value={weeks}
-          onChange={(e) => setWeeks(e.target.value)}
+          value={courseLength}
+          onChange={(e) => setCourseLength(e.target.value)}
           >
             <option value="52">52 veckor</option>
             <option value="40">40 veckor</option>

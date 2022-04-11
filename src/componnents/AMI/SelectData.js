@@ -13,7 +13,8 @@ useEffect(() => {
     }, []);
   return (
     <div>
-      <select>
+      <select
+      multiple ={true} >
   {teachers.map(({ label, value }) => (
     <option key={value} value={value}>
       {label}
