@@ -5,7 +5,7 @@ const [program, setProgram] = useState([])
 
 useEffect(() => {
     async function getProgram() {
-        const response = await fetch("http://localhost:8080/courses");
+        const response = await fetch("http://localhost:8080/program");
         const body = await response.json();
         setProgram(body.map(({ education }) => ({ label: education , value: education })));
       }
