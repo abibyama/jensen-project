@@ -60,32 +60,47 @@
             }
             ],
 
-            "frontend":[
+            "Frontend":[
                 {
                     "id":1,
-                    "frontendName":"Webbutveckling: Frontend"},
+                    "FrontendName":"Webbutveckling: Frontend"},
                     {"id":2,
-                        "frontendName":"Grundläggande JavaScriptprogrammering"},
+                        "FrontendName":"Grundläggande JavaScriptprogrammering"},
                    {"id":3,
-                       "frontendName":"Webbkommunikation"},
+                       "FrontendName":"Webbkommunikation"},
                     { "id":4,
-                        "frontendName":"Webbramverk för JavaScript"},
-                    { "id":4,
-                        "frontendName":"Agil projektmetodik"}   
+                        "FrontendName":"Webbramverk för JavaScript"},
+                    { "id":5,
+                        "FrontendName":"Agil projektmetodik"}   
             ],
 
             "DevOpsEngineer":[
                 {
-                    "key":1,
+                    "id":1,
                     "DevOpsEngineertName":"Projektledningsmetodik 1"},
-                    {"key":2,
+                    {"id":2,
                         "DevOpsEngineerName":"Projektledningsmetodik 2"},
-                   {"key":3,
+                   {"id":3,
                        "DevOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
-                    { "key":4,
+                    { "id":4,
                         "DevOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
-                    { "key":4,
+                    { "id":5,
                         "DevOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+            ],
+
+            "Cloudutvacklare":[
+                {
+                    "id":1,
+                    "CloudutvacklaretName":"Projektledningsmetodik 1"},
+                    {"id":2,
+                        "CloudutvacklareName":"Prometodik 2"},
+                   {"id":3,
+                       "CloudutvacklareName":"Själ fortsättning"},
+                    { "id":4,
+                        "CloudutvacklareName":"maararamamrma "},
+                    { "id":5,
+                        "CloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ]
+
 
 }     

@@ -1,0 +1,44 @@
+{
+
+    "Frontend":[
+        {
+            "id":1,
+            "FrontendName":"Webbutveckling: Frontend"},
+            {"id":2,
+                "FrontendName":"Grundläggande JavaScriptprogrammering"},
+           {"id":3,
+               "FrontendName":"Webbkommunikation"},
+            { "id":4,
+                "FrontendName":"Webbramverk för JavaScript"},
+            { "id":5,
+                "FrontendName":"Agil projektmetodik"}   
+    ],
+
+    "DevOpsEngineer":[
+        {
+            "id":1,
+            "DevOpsEngineertName":"Projektledningsmetodik 1"},
+            {"id":2,
+                "DevOpsEngineerName":"Projektledningsmetodik 2"},
+           {"id":3,
+               "DevOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+            { "id":4,
+                "DevOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
+            { "id":5,
+                "DevOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+    ],
+
+    "Cloudutvacklare":[
+        {
+            "id":1,
+            "CloudutvacklaretName":"Projektledningsmetodik 1"},
+            {"id":2,
+                "CloudutvacklareName":"Prometodik 2"},
+           {"id":3,
+               "CloudutvacklareName":"Själ fortsättning"},
+            { "id":4,
+                "CloudutvacklareName":"maararamamrma "},
+            { "id":5,
+                "CloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+    ]
+}

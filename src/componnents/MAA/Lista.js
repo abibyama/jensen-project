@@ -1,22 +1,14 @@
   import React from 'react'
 
+import Build from './Build'
 
-  export default function Lista(props) {
+  export default function Lista( ) {
     return (
-      <div>
-        <h2>{props.name}</h2>
-        <p>{props.description}</p>
-        <div className='educationList'></div>
-
-
-
-      </div>
-
-
-
+ <div>
+  
+       
+    < Build />
+    </div>
 
     )
-
-
-    
-  }
+ }
