@@ -5,7 +5,7 @@ const [DevOpsEngineer, setDevOpsEngineer] = useState([])
 
 useEffect(() => {
     async function getDevOpsEngineerCourses() {
-        const response = await fetch("http://localhost:8080/DevOpsEngineer");
+        const response = await fetch("http://localhost:8080/devOpsEngineer");
         const body = await response.json();
         setDevOpsEngineer(body.map(({ devOpsEngineerName }) => ({ label:  devOpsEngineerName , value: devOpsEngineerName })));
       }
@@ -13,7 +13,8 @@ useEffect(() => {
     }, []);
   return (
     <div>
-      <select>
+      <select
+      multiple={true}>
   {DevOpsEngineer.map(({ label, value }) => (
     <option key={value} value={value}>
       {label}

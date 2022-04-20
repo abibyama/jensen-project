@@ -1,13 +1,14 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
-function Frontend() {
-const [FrontendName, setFrontendName] = useState([Frontend]) 
+
+function FrontEndCourses() {
+const [Frontend, setFrontend] = useState([]) 
 
 useEffect(() => {
     async function getFrontend() {
-        const response = await fetch("http://localhost:8080/Frontend");
+        const response = await fetch("http://localhost:8080/frontend");
         const body = await response.json();
-        setFrontendName(body.map(({ FrontendName }) => ({ label: FrontendName , value: FrontendName })));
+        setFrontend(body.map(({ frontendName}) => ({ label: frontendName , value: frontendName })));
       }
       getFrontend();
     }, []);
@@ -26,4 +27,4 @@ useEffect(() => {
   )
 }
 
-export default Frontend
+export default FrontEndCourses

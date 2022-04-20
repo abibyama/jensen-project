@@ -60,47 +60,44 @@
             }
             ],
 
-            "Frontend":[
+            "frontend":[
                 {
                     "id":1,
-                    "FrontendName":"Webbutveckling: Frontend"},
+                    "frontendName":"Webbutveckling: Frontend"},
                     {"id":2,
-                        "FrontendName":"Grundläggande JavaScriptprogrammering"},
+                        "frontendName":"Grundläggande JavaScriptprogrammering"},
                    {"id":3,
-                       "FrontendName":"Webbkommunikation"},
+                       "frontendName":"Webbkommunikation"},
                     { "id":4,
-                        "FrontendName":"Webbramverk för JavaScript"},
+                        "frontendName":"Webbramverk för JavaScript"},
                     { "id":5,
-                        "FrontendName":"Agil projektmetodik"}   
+                        "frontendName":"Agil projektmetodik"}   
             ],
 
-            "DevOpsEngineer":[
-                {
-                    "id":1,
-                    "DevOpsEngineertName":"Projektledningsmetodik 1"},
-                    {"id":2,
-                        "DevOpsEngineerName":"Projektledningsmetodik 2"},
-                   {"id":3,
-                       "DevOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+            "devOpsEngineer":[
+                    {"id":1,
+                        "devOpsEngineerName":"Projektledningsmetodik 1 och 2"},
+                   {"id":2,
+                       "devOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+                    { "id":3,
+                        "devOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
                     { "id":4,
-                        "DevOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
-                    { "id":5,
-                        "DevOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+                        "devOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ],
 
-            "Cloudutvacklare":[
+            "cloudutvacklare":[
                 {
                     "id":1,
-                    "CloudutvacklaretName":"Projektledningsmetodik 1"},
+                    "cloudutvacklaretName":"Projektledningsmetodik 1"},
                     {"id":2,
-                        "CloudutvacklareName":"Prometodik 2"},
+                        "cloudutvacklareName":"Prometodik 2"},
                    {"id":3,
-                       "CloudutvacklareName":"Själ fortsättning"},
+                       "cloudutvacklareName":"Själ fortsättning"},
                     { "id":4,
-                        "CloudutvacklareName":"maararamamrma "},
+                        "cloudutvacklareName":"maararamamrma "},
                     { "id":5,
-                        "CloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+                        "cloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ]
 
 
-}     s
+}     

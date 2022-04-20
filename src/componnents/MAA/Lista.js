@@ -1,14 +1,17 @@
-  import React from 'react'
+ import React from 'react'
 
-import Build from './Build'
-
-  export default function Lista( ) {
+  export default function Lista(props) {
     return (
- <div>
-  
-       
-    < Build />
-    </div>
+      <div>
+        <h2>{props.name}</h2>
+        <p>{props.description}</p>
+      </div>
+
+
+
 
     )
- }
+
+
+    
+  }
