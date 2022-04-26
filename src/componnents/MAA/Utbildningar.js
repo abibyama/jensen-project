@@ -3,6 +3,7 @@ import Lista from './Lista'
 import utbildningLista from './utbildningLista'
 import FrontEndCourses from './FrontEndCourses'
 import DevOpsEngineerCourses from './DevOpsEngineerCourses'
+import Cloudutvacklare from './Cloudutvacklare'
 
     function education (educationList){
       return (
@@ -32,11 +33,9 @@ import DevOpsEngineerCourses from './DevOpsEngineerCourses'
           <FrontEndCourses />
         <h3>Dev Ops Engineer</h3>
         <DevOpsEngineerCourses />
-        <h3>IT Projekt Ledare</h3>
+        <h3>Cloudutvacklar</h3>
+        <Cloudutvacklare />
 
-        <h3>Clout Utvecklare</h3>
-
-        
 
         </div>
         

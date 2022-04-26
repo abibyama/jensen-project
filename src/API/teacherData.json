@@ -63,41 +63,62 @@
             "frontend":[
                 {
                     "id":1,
-                    "frontendName":"Webbutveckling: Frontend"},
+                    "frontendName":".Webbutveckling: Frontend"},
                     {"id":2,
-                        "frontendName":"Grundläggande JavaScriptprogrammering"},
+                        "frontendName":".Grundläggande JavaScriptprogrammering"},
                    {"id":3,
-                       "frontendName":"Webbkommunikation"},
+                       "frontendName":".Webbkommunikation"},
                     { "id":4,
-                        "frontendName":"Webbramverk för JavaScript"},
+                        "frontendName":".Webbramverk för JavaScript"},
                     { "id":5,
-                        "frontendName":"Agil projektmetodik"}   
+                        "frontendName":".Agil projektmetodik"}   
             ],
 
             "devOpsEngineer":[
                     {"id":1,
-                        "devOpsEngineerName":"Projektledningsmetodik 1 och 2"},
+                        "devOpsEngineerName":".Projektledningsmetodik 1 och 2"},
                    {"id":2,
-                       "devOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+                       "devOpsEngineerName":".Självledarskap - att leda sig själv, fortsättning"},
                     { "id":3,
-                        "devOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
+                        "devOpsEngineerName":".Självledarskap - att leda sig själv, grund "},
                     { "id":4,
-                        "devOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+                        "devOpsEngineerName":".Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}  ,
+                        { "id":4,
+                            "devOpsEngineerName":".Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ],
 
             "cloudutvacklare":[
                 {
                     "id":1,
-                    "cloudutvacklaretName":"Projektledningsmetodik 1"},
+                    "cloudutvacklaretName":".Administration och säkerhet i molnmiljö"},
                     {"id":2,
-                        "cloudutvacklareName":"Prometodik 2"},
+                        "cloudutvacklareName":".Objektorienterad programmering med Java SE"},
                    {"id":3,
-                       "cloudutvacklareName":"Själ fortsättning"},
+                       "cloudutvacklareName":".Systematisk programutveckling med Java"},
                     { "id":4,
-                        "cloudutvacklareName":"maararamamrma "},
+                        "cloudutvacklareName":".Databashantering "},
                     { "id":5,
-                        "cloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+                        "cloudutvacklareName":".Cloudutveckling "},  
+                        { "id":6,
+                            "cloudutvacklareName":".Lärande i arbete 1&2 "}
+            ],
+
+            "itprojektledare":[
+                {
+                    "id":1,
+                    " itprojektledareName":".Projektledningsmetodik 1"},
+                    {"id":2,
+                        " itprojektledareName":".Prometodik 2"},
+                   {"id":3,
+                       " itprojektledareName":".Själ fortsättning"},
+                    { "id":4,
+                        " itprojektledareName":".html "},
+                    { "id":5,
+                        " itprojektledareName":".Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ]
+
+
+
 
 
 }     

@@ -22,7 +22,7 @@ const utbildningLista = [
 
     {
         id: 3, 
-        name: "Cloud utvacklare",
+        name: "Cloudutvacklare",
         description: "Som cloudutvecklare har du specialiserade kunskaper inom säker applikationsutveckling med programmeringsspråket Java och relevanta databaser och använder en molnplattform - i det här fallet AWS - som utvecklingsmiljö. AWS är idag den största molnplattformen i konkurrens med främst Microsoft Azure och Google Cloud Platform (GCP). "
 
     },
