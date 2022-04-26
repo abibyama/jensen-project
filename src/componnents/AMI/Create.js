@@ -8,7 +8,8 @@
 
     const handleSubmit = (e) => {
       e.preventDefault();
-      const course = {courseName, SelectData, courseLength };
+      alert("Kursen är tillagt!")
+      const course = {courseName, SelectData, courseLength, description };
       console.log(course)
     }
 
@@ -41,7 +42,7 @@
           value={description}
           onChange={(e) => setDescription(e.target.value)}
           ></textarea>
-        <button>Lägg till kurs</button>
+        <button type='submit'>Lägg till kurs</button>
           </form>
         
 

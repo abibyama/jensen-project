@@ -1,118 +1,103 @@
-{
-  "teachers": [
-    {
-      "id": 1,
-      "firstName": "Mohamed",
-      "lastName": "Abdi Ali",
-      "fullName": "Mohammed Abdi Ali",
-      "email": "moha@chaiacademy.com",
-      "role": "U",
-      "bankAccount": "237402430"
-    },
-    {
-      "id": 2,
-      "firstName": "Mohamed",
-      "lastName": "Ali",
-      "fullName": "Mohamed Ali",
-      "email": "moali@chaiacademy.com",
-      "role": "T",
-      "bankAccount": "301893023"
-    },
-    {
-      "id": 3,
-      "firstName": "Per",
-      "lastName": "Thorander",
-      "fullName": "Per Thorander",
-      "email": "perthor@chaiacademy.com",
-      "role": "T",
-      "bankAccount": "456871431"
-    },
-    {
-      "id": 4,
-      "firstName": "Abdullahi",
-      "lastName": "Mohamed Ibrahim",
-      "fullName": "Abdullahi Mohamed Ibrahim",
-      "email": "abdibra@chaiacademy.com",
-      "role": "T",
-      "bankAccount": "101892537"
-    },
-    {
-      "firstName": "",
-      "lastName": "",
-      "email": "",
-      "role": "",
-      "bankAccount": "",
-      "id": 5
-    },
-    {
-      "firstName": "mohammad",
-      "lastName": "ali",
-      "email": "moali_98@hotmail.com",
-      "role": "T",
-      "bankAccount": "",
-      "id": 6
-    }
-  ],
-  "program": [
-    {
-      "id": 1,
-      "education": "Frontend"
-    },
-    {
-      "id": 2,
-      "education": "Teknik Testar"
-    },
-    {
-      "id": 3,
-      "education": "apple utvacklare"
-    },
-    {
-      "id": 4,
-      "education": "IT-projektledare"
-    }
-  ],
-  "frontend": [
-    {
-      "id": 1,
-      "frontendName": "Webbutveckling: Frontend"
-    },
-    {
-      "id": 2,
-      "frontendName": "Grundläggande JavaScriptprogrammering"
-    },
-    {
-      "id": 3,
-      "frontendName": "Webbkommunikation"
-    },
-    {
-      "id": 4,
-      "frontendName": "Webbramverk för JavaScript"
-    },
-    {
-      "id": 4,
-      "frontendName": "Agil projektmetodik"
-    }
-  ],
-  "DevOpsEngineer": [
-    {
-      "id": 1,
-      "DevOpsEngineertName": "Projektledningsmetodik 1"
-    },
-    {
-      "id": 2,
-      "DevOpsEngineerName": "Projektledningsmetodik 2"
-    },
-    {
-      "id": 3,
-      "DevOpsEngineerName": "Självledarskap - att leda sig själv, fortsättning"
-    },
-    {
-      "id": 4,
-      "DevOpsEngineerName": "Självledarskap - att leda sig själv, grund "
-    },
-    {
-      "id": 4,
-      "DevOpsEngineerName": "Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "
-    }
-  ]
-}
+{   "teachers":[
+        {   "id":1,
+            "firstName": "Mohamed",
+            "lastName": "Abdi Ali",
+            "fullName" : "Mohammed Abdi Ali",
+            "email": "moha@chaiacademy.com",
+            "role":"U",
+            "bankAccount": "237402430"
+        
+        },
+        {   "id":2,
+            "firstName": "Mohamed",
+            "lastName":"Ali",
+            "fullName" : "Mohamed Ali",
+            "email": "moali@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "301893023"
+        
+        
+        },
+        
+        {   "id": 3,
+            "firstName": "Per",
+            "lastName":"Thorander",
+            "fullName" : "Per Thorander",
+            "email": "perthor@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "456871431"
+        
+        },
+        
+        {   "id":4,
+            "firstName": "Abdullahi",
+            "lastName":"Mohamed Ibrahim",
+            "fullName" : "Abdullahi Mohamed Ibrahim",
+            "email": "abdibra@chaiacademy.com",
+            "role":"T",
+            "bankAccount": "101892537"
+        }
+        
+        ],
+        "program":[
+            {   "id":1,
+                "education": "Frontend"
+            
+            },
+            {   "id":2,
+                "education": "Teknik Testar"
+            
+            
+            },
+            
+            {   "id": 3,
+                "education": "apple utvacklare"
+            
+            },
+            
+            {   "id":4,
+                "education": "IT-projektledare"
+            }
+            ],
+
+            "frontend":[
+                {
+                    "id":1,
+                    "frontendName":"Webbutveckling: Frontend"},
+                    {"id":2,
+                        "frontendName":"Grundläggande JavaScriptprogrammering"},
+                   {"id":3,
+                       "frontendName":"Webbkommunikation"},
+                    { "id":4,
+                        "frontendName":"Webbramverk för JavaScript"},
+                    { "id":5,
+                        "frontendName":"Agil projektmetodik"}   
+            ],
+
+            "devOpsEngineer":[
+                    {"id":1,
+                        "devOpsEngineerName":"Projektledningsmetodik 1 och 2"},
+                   {"id":2,
+                       "devOpsEngineerName":"Självledarskap - att leda sig själv, fortsättning"},
+                    { "id":3,
+                        "devOpsEngineerName":"Självledarskap - att leda sig själv, grund "},
+                    { "id":4,
+                        "devOpsEngineerName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+            ],
+
+            "cloudutvacklare":[
+                {
+                    "id":1,
+                    "cloudutvacklaretName":"Projektledningsmetodik 1"},
+                    {"id":2,
+                        "cloudutvacklareName":"Prometodik 2"},
+                   {"id":3,
+                       "cloudutvacklareName":"Själ fortsättning"},
+                    { "id":4,
+                        "cloudutvacklareName":"maararamamrma "},
+                    { "id":5,
+                        "cloudutvacklareName":"Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
+            ]
+
+
+}     
