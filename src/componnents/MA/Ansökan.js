@@ -1,6 +1,11 @@
 import React, { useState } from 'react'
 import CourseSelect from './CourseSelect';
 
+const handleSubmit = (e) => {
+  e.preventDefault();
+  alert("Tack för din ansökan!")
+}
+
 const Ansökan = () => {
  const [nameValue, setNameValue] = useState("");
     const [lastNameValue, setLastNameValue] = useState("");
@@ -10,8 +15,7 @@ const Ansökan = () => {
     <div className='ansökan'>
       <h1>Ansökan</h1>
       <p>Fyll i dina uppgifter och vilken utbildning du vill söka till</p>
-      <form>
-
+      <form onSubmit={handleSubmit}>
 
 
         <label>Förnamn</label>
@@ -41,9 +45,8 @@ const Ansökan = () => {
         <label>Välj utbildning</label>
        <CourseSelect />
 
-        <input type="submit" value="Ansök"></input>
         {/* <button type="button" onClick={ButtonClick}>Add data</button> */}
-
+        <button type='submit'>Lägg till kurs</button>
 
 
       </form>
