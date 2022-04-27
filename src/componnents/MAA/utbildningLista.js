@@ -30,12 +30,7 @@ const utbildningLista = [
 
 
 
-    {
-        id: 4, 
-        name: "IT-projektledare",
-        description: "Den digitalisering som pågår i samhället gör att IT-projektledare är starkt efterfrågade idag och behovet kommer fortsatt att öka framöver. I denna utbildning får du det som behövs för att kunna axla rollen som IT-projektledare och det som krävs för att kunna driva framgångsrika projekt!  "
-
-    },
+   
 
 
     ]

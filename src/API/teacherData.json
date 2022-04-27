@@ -101,21 +101,7 @@
                         "cloudutvacklareName":".Cloudutveckling "},  
                         { "id":6,
                             "cloudutvacklareName":".Lärande i arbete 1&2 "}
-            ],
-
-            "itprojektledare":[
-                {
-                    "id":1,
-                    " itprojektledareName":".Projektledningsmetodik 1"},
-                    {"id":2,
-                        " itprojektledareName":".Prometodik 2"},
-                   {"id":3,
-                       " itprojektledareName":".Själ fortsättning"},
-                    { "id":4,
-                        " itprojektledareName":".html "},
-                    { "id":5,
-                        " itprojektledareName":".Upphandla, utveckla och implementera IT-lösningar och IT-tjänster "}   
             ]
 
-
+           
 }     
